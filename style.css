@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+}
+.col{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.col h2{
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: background 0.5s;
+    box-shadow: 2px 3px 4px;
+}
+.col h2:hover{
+    background:rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.col button{
+    padding: 10px;
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 10px;
+}
+.col button:hover{
+    background:rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
